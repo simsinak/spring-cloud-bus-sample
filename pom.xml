@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sina</groupId>
-	<artifactId>cloud-sample-1</artifactId>
+	<artifactId>spring-cloud-bus-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cloud-sample-1</name>
 	<description>cloud-sample-1</description>

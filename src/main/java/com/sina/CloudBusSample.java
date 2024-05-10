@@ -7,6 +7,9 @@ import org.springframework.cloud.bus.event.SentApplicationEvent;
 import org.springframework.cloud.bus.jackson.RemoteApplicationEventScan;
 import org.springframework.context.event.EventListener;
 
+/**
+ * @author sinaaskarnejad
+ */
 @SpringBootApplication
 @RemoteApplicationEventScan
 public class CloudBusSample {
