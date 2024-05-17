@@ -1,6 +1,6 @@
-package com.sina.controller;
+package com.sina.bus.controller;
 
-import com.sina.event.NotifyEvent;
+import com.sina.bus.event.NotifyEvent;
 import org.springframework.cloud.bus.BusProperties;
 import org.springframework.cloud.bus.event.PathDestinationFactory;
 import org.springframework.context.ApplicationContext;

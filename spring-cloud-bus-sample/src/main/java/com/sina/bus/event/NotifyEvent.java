@@ -1,4 +1,4 @@
-package com.sina.event;
+package com.sina.bus.event;
 
 import org.springframework.cloud.bus.event.Destination;
 import org.springframework.cloud.bus.event.RemoteApplicationEvent;
