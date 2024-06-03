@@ -1,5 +1,6 @@
 package com.sina.bus.event;
 
+import lombok.NoArgsConstructor;
 import org.springframework.cloud.bus.event.Destination;
 import org.springframework.cloud.bus.event.RemoteApplicationEvent;
 import org.springframework.core.style.ToStringCreator;
@@ -9,13 +10,10 @@ import java.util.Objects;
 /**
  * @author sinaaskarnejad
  */
+@NoArgsConstructor
 public class NotifyEvent extends RemoteApplicationEvent {
 
     private String data;
-
-    public NotifyEvent() {
-
-    }
 
     public NotifyEvent(Object source, String originService, Destination destination, String data) {
         super(source, originService, destination);

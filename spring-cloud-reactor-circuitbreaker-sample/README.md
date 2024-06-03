@@ -1,11 +1,5 @@
-# Getting Started
+# Spring Cloud Reactor Circuit Breaker Sample
 
-### Reference Documentation
+### A sample of spring cloud Reactor circuit breaker
 
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.3.0/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.3.0/maven-plugin/reference/html/#build-image)
-* [Resilience4J](https://docs.spring.io/spring-cloud-circuitbreaker/docs/current/reference/html/#configuring-resilience4j-circuit-breakers)
-
+This is a sample of circuit breaker and time limiter in Reactor projects.
